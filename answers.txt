@@ -1,0 +1,3 @@
+Q1: The file was deleted along with the container because it was stored in the containers writable layer, which is removed when the container is deleted.
+Q2: Because the web service is only accessed locally by the proxy through docker's internal network. Only the proxy needs a published port to allow external network access.
+Q3: An image is read only template used to create a containers, while a container is a running node of that image.
